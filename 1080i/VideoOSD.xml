@@ -201,6 +201,26 @@
                     <include content="OSD_Button">
                         <param name="autoclose" value="true" />
                         <param name="visible" value="true" />
+                        <param name="icon" value="special://skin/extras/icons/ppi.png" />
+                        <param name="visible" value="true" />
+                        <param name="id" value="6540" />
+                        <param name="groupid" value="6639" />
+                        <onclick>ActivateWindow(playerprocessinfo)</onclick>
+                        <onup>SetFocus(7800)</onup>
+                    </include>
+                    <include content="OSD_Button">
+                        <param name="autoclose" value="true" />
+                        <param name="visible" value="true" />
+                        <param name="icon" value="special://skin/extras/icons/vs10.png" />
+                        <param name="visible" value="true" />
+                        <param name="id" value="6550" />
+                        <param name="groupid" value="6649" />
+                        <onclick>ActivateWindow(1180)</onclick>
+                        <onup>SetFocus(7800)</onup>
+                    </include>
+                    <include content="OSD_Button">
+                        <param name="autoclose" value="true" />
+                        <param name="visible" value="true" />
                         <param name="icon" value="special://skin/extras/icons/volume.png" />
                         <param name="visible" value="true" />
                         <param name="id" value="6600" />
