@@ -1985,7 +1985,7 @@ msgstr "Farbbereich"
 
 msgctxt "#32003"
 msgid "Mb/s"
-msgstr "Mbit/s"
+msgstr "Mb/s"
 
 msgctxt "#32004"
 msgid "Bit depth"
@@ -2021,7 +2021,7 @@ msgstr "Audio Queue-Daten"
 
 msgctxt "#32012"
 msgid "Kb/s"
-msgstr "Kbit/s"
+msgstr "Kb/s"
 
 msgctxt "#32013"
 msgid "Playback time"
@@ -2212,8 +2212,8 @@ msgid "Position of the codec logos in the PlayerProcessInfo"
 msgstr "Position der Codec-Logos im PlayerProcessInfo"
 
 msgctxt "#32062"
-msgid "Show codec logos when video starts"
-msgstr "Codec-Logos beim Start des Videos anzeigen"
+msgid "Position of the codec logos when video starts"
+msgstr "Position der Codec-Logos beim Start des Videos"
 
 msgctxt "#32063"
 msgid "Codec logos"
@@ -2227,10 +2227,34 @@ msgctxt "#32065"
 msgid "VS10 mode"
 msgstr "VS10-Modus"
 
-msgctxt "#32066"
-msgid "Coloured title lines in PlayerProcessInfo"
-msgstr "Farbige Titelzeilen im PlayerProcessInfo"
-
 msgctxt "#32067"
 msgid "L5 Active Offsets"
 msgstr "L5 Aktive Offsets"
+
+msgctxt "#32068"
+msgid "Version"
+msgstr "Version"
+
+msgctxt "#32069"
+msgid "Bit depth"
+msgstr "Bittiefe"
+
+msgctxt "#32070"
+msgid "EOTF & Gamut"
+msgstr "EOTF & Gamut"
+
+msgctxt "#32071"
+msgid "Duration of the codec logos when video starts"
+msgstr "Dauer der Codec-Logos beim Start des Videos"
+
+msgctxt "#32072"
+msgid "Standard"
+msgstr "Standard"
+
+msgctxt "#32075"
+msgid "second"
+msgstr "Sekunde"
+
+msgctxt "#32076"
+msgid "seconds"
+msgstr "Sekunden"
