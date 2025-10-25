@@ -437,7 +437,7 @@
                 <control type="label">
                     <top>50</top>
                     <left>240</left>
-                    <label>$INFO[System.CPUTemperature] [COLOR FF404040]|[/COLOR] $INFO[System.CpuAltUsage]</label>
+                    <label>$INFO[System.CPUTemperature] | $INFO[System.CpuAltUsage]</label>
                     <font>font_tiny1</font>
                     <textcolor>ppi_dialog_fg_90</textcolor>
                 </control>
@@ -471,37 +471,22 @@
                     <textcolor>ppi_dialog_fg_90</textcolor>
                 </control>
 				
-                <!-- System -->
-                <control type="label">
-                    <top>110</top>
-                    <label>$LOCALIZE[32055]:</label>
-                    <font>font_tiny1</font>
-                    <textcolor>ppi_dialog_fg_90</textcolor>
-                </control>
-                <control type="label">
-                    <left>240</left>
-                    <top>110</top>
-                    <label>$INFO[System.FPS] FPS</label>
-                    <font>font_tiny1</font>
-                    <textcolor>ppi_dialog_fg_90</textcolor>
-                </control>
-				
                 <!-- Player cache -->
                 <control type="label">
-                    <top>140</top>
+                    <top>110</top>
                     <label>$LOCALIZE[32032]:</label>
                     <font>font_tiny1</font>
                     <textcolor>ppi_dialog_fg_90</textcolor>
                 </control>
                 <control type="label">
                     <left>240</left>
-                    <top>140</top>
+                    <top>110</top>
                     <label>$INFO[Player.CacheLevel,,%]</label>
                     <font>font_tiny1</font>
                     <textcolor>ppi_dialog_fg_90</textcolor>
                 </control>
                 <control type="group">
-                    <top>139</top>
+                    <top>109</top>
                     <left>305</left>
                     <control type="progress">
                         <width>245</width>
@@ -519,20 +504,20 @@
 				
                 <!-- Video queue -->
                 <control type="label">
-                    <top>170</top>
+                    <top>140</top>
                     <label>$LOCALIZE[32008]:</label>
                     <font>font_tiny1</font>
                     <textcolor>ppi_dialog_fg_90</textcolor>
                 </control>
                 <control type="label">
-                    <top>170</top>
+                    <top>140</top>
                     <left>240</left>
                     <label>$INFO[Player.Process(video.queue.level)]%</label>
                     <font>font_tiny1</font>
                     <textcolor>ppi_dialog_fg_90</textcolor>
                 </control>
                 <control type="group">
-                    <top>169</top>
+                    <top>139</top>
                     <left>305</left>
                     <control type="progress">
                         <width>245</width>
@@ -550,20 +535,20 @@
 				
                 <!-- Video queue data -->
                 <control type="label">
-                    <top>200</top>
+                    <top>170</top>
                     <label>$LOCALIZE[32009]:</label>
                     <font>font_tiny1</font>
                     <textcolor>ppi_dialog_fg_90</textcolor>
                 </control>
                 <control type="label">
-                    <top>200</top>
+                    <top>170</top>
                     <left>240</left>
                     <label>$INFO[Player.Process(video.queue.data.level)]%</label>
                     <font>font_tiny1</font>
                     <textcolor>ppi_dialog_fg_90</textcolor>
                 </control>
                 <control type="group">
-                    <top>199</top>
+                    <top>169</top>
                     <left>305</left>
                     <control type="progress">
                         <width>245</width>
@@ -581,20 +566,20 @@
 				
                 <!-- Audio queue -->
                 <control type="label">
-                    <top>230</top>
+                    <top>200</top>
                     <label>$LOCALIZE[32010]:</label>
                     <font>font_tiny1</font>
                     <textcolor>ppi_dialog_fg_90</textcolor>
                 </control>
                 <control type="label">
-                    <top>230</top>
+                    <top>200</top>
                     <left>240</left>
                     <label>$INFO[Player.Process(audio.queue.level)]%</label>
                     <font>font_tiny1</font>
                     <textcolor>ppi_dialog_fg_90</textcolor>
                 </control>
                 <control type="group">
-                    <top>229</top>
+                    <top>199</top>
                     <left>305</left>
                     <control type="progress">
                         <width>245</width>
@@ -612,20 +597,20 @@
 				
                 <!-- Audio queue data -->
                 <control type="label">
-                    <top>260</top>
+                    <top>230</top>
                     <label>$LOCALIZE[32011]:</label>
                     <font>font_tiny1</font>
                     <textcolor>ppi_dialog_fg_90</textcolor>
                 </control>
                 <control type="label">
-                    <top>260</top>
+                    <top>230</top>
                     <left>240</left>
                     <label>$INFO[Player.Process(audio.queue.data.level)]%</label>
                     <font>font_tiny1</font>
                     <textcolor>ppi_dialog_fg_90</textcolor>
                 </control>
                 <control type="group">
-                    <top>259</top>
+                    <top>229</top>
                     <left>305</left>
                     <control type="progress">
                         <width>245</width>
@@ -645,7 +630,7 @@
             <!-- Group: Audio -->
             <control type="group">
                 <left>640</left>
-                <top>330</top>
+                <top>300</top>
 				
                 <!-- Audio Icon -->
                 <control type="label">
@@ -674,7 +659,7 @@
                 <control type="label">
                     <left>240</left>
                     <top>20</top>
-                    <label>[COLOR ppi_dialog_fg_90]$VAR[AudioCodecVar] $VAR[AudioChannelsVar][/COLOR] [COLOR ppi_dialog_fg_70]$VAR[AudioCodecSpatialVar][/COLOR]</label>
+                    <label>[COLOR dialog_fg_90]$VAR[AudioCodecVar] $VAR[AudioChannelsVar][/COLOR] [COLOR dialog_fg_70]$VAR[AudioCodecSpatialVar][/COLOR]</label>
                     <font>font_tiny1</font>
                 </control>
 				
@@ -688,51 +673,86 @@
                 <control type="label">
                     <left>240</left>
                     <top>50</top>
-                    <label>$INFO[Player.Process(audiobitspersample),,-bit]</label>
-                    <font>font_tiny1</font>
-                    <textcolor>ppi_dialog_fg_90</textcolor>
-                </control>
-				
-                <!-- Sample rate -->
-                <control type="label">
-                    <top>80</top>
-                    <label>$LOCALIZE[32051]:</label>
-                    <font>font_tiny1</font>
-                    <textcolor>ppi_dialog_fg_90</textcolor>
-                </control>
-                <control type="label">
-                    <left>240</left>
-                    <top>80</top>
-                    <label>$INFO[Player.Process(audio.sample.rate),, kHz]</label>
+                    <label>$INFO[Player.Process(audiobitspersample),,-bit] | $INFO[Player.Process(audio.sample.rate),, kHz]</label>
                     <font>font_tiny1</font>
                     <textcolor>ppi_dialog_fg_90</textcolor>
                 </control>
 				
                 <!-- Bitrate -->
                 <control type="label">
-                    <top>110</top>
+                    <top>80</top>
                     <label>$LOCALIZE[32047]:</label>
                     <font>font_tiny1</font>
                     <textcolor>ppi_dialog_fg_90</textcolor>
                 </control>
                 <control type="label">
                     <left>240</left>
-                    <top>110</top>
-                    <label>$INFO[Player.Process(audio.live.kibit.rate),, $LOCALIZE[32012]] $INFO[VideoPlayer.AudioKibitRate,- [COLOR ppi_dialog_fg_70](Ø , $LOCALIZE[32012])[/COLOR]]</label>
+                    <top>80</top>
+                    <label>$INFO[Player.Process(audio.live.kibit.rate),, $LOCALIZE[32012]] $INFO[VideoPlayer.AudioKibitRate,- [COLOR dialog_fg_70](Ø , $LOCALIZE[32012])[/COLOR]]</label>
                     <font>font_tiny1</font>
                     <textcolor>ppi_dialog_fg_90</textcolor>
                 </control>
 				
-                <!-- Audio language -->
+                <!-- Input -->
+                <control type="label">
+                    <top>110</top>
+                    <label>$LOCALIZE[32051]:</label>
+                    <font>font_tiny1</font>
+                    <textcolor>ppi_dialog_fg_90</textcolor>
+                </control>
+                <control type="label">
+                    <left>240</left>
+                    <top>110</top>
+                    <width>305</width>
+                    <label>$INFO[Player.Process(audiochannels),]</label>
+                    <font>font_tiny1</font>
+                    <scroll>true</scroll>
+                    <textcolor>ppi_dialog_fg_90</textcolor>
+                </control>
+					
+                <!-- Output -->
                 <control type="label">
                     <top>140</top>
-                    <label>$LOCALIZE[32052]:</label>
+                    <label>$LOCALIZE[32055]:</label>
                     <font>font_tiny1</font>
                     <textcolor>ppi_dialog_fg_90</textcolor>
                 </control>
                 <control type="label">
                     <left>240</left>
                     <top>140</top>
+                    <label>$LOCALIZE[32035]</label>
+                    <font>font_tiny1</font>
+                    <textcolor>ppi_dialog_fg_90</textcolor>
+                    <visible>Player.Passthrough</visible>
+                </control>
+                <control type="label">
+                    <left>240</left>
+                    <top>140</top>
+                    <width>305</width>
+                    <label>$INFO[Player.Process(audiochannelssink),]</label>
+                    <font>font_tiny1</font>
+                    <textcolor>ppi_dialog_fg_90</textcolor>
+                    <visible>!Player.Passthrough</visible>
+                </control>
+                <control type="label">
+                    <left>240</left>
+                    <top>140</top>
+                    <label>$LOCALIZE[32078]</label>
+                    <font>font_tiny1</font>
+                    <textcolor>ppi_dialog_fg_90</textcolor>
+                    <visible>!Player.Passthrough + String.IsEmpty(Player.Process(audiochannelssink))</visible>
+                </control>
+				
+                <!-- Audio language -->
+                <control type="label">
+                    <top>170</top>
+                    <label>$LOCALIZE[32052]:</label>
+                    <font>font_tiny1</font>
+                    <textcolor>ppi_dialog_fg_90</textcolor>
+                </control>
+                <control type="label">
+                    <left>240</left>
+                    <top>170</top>
                     <width>320</width>
                     <label>[UPPERCASE]$INFO[VideoPlayer.AudioLanguage][/UPPERCASE]</label>
                     <font>font_tiny1</font>
@@ -743,7 +763,7 @@
                 </control>
                 <control type="label">
                     <left>240</left>
-                    <top>140</top>
+                    <top>170</top>
                     <width>320</width>
                     <label>[UPPERCASE]$INFO[VideoPlayer.AudioLanguage][/UPPERCASE] | $INFO[VideoPlayer.AudioLanguageEx]</label>
                     <font>font_tiny1</font>
@@ -755,7 +775,7 @@
                 <!-- N/A -->
                 <control type="label">
                     <left>240</left>
-                    <top>140</top>
+                    <top>170</top>
                     <label>$LOCALIZE[32033]</label>
                     <font>font_tiny1</font>
                     <textcolor>ppi_dialog_fg_90</textcolor>
@@ -764,14 +784,14 @@
 				
                 <!-- Subtitle language -->
                 <control type="label">
-                    <top>170</top>
+                    <top>200</top>
                     <label>$LOCALIZE[32053]:</label>
                     <font>font_tiny1</font>
                     <textcolor>ppi_dialog_fg_90</textcolor>
                 </control>
                 <control type="label">
                     <left>240</left>
-                    <top>170</top>
+                    <top>200</top>
                     <width>320</width>
                     <label>$VAR[SubtitleVar] $VAR[SubtitleNameVar]</label>
                     <font>font_tiny1</font>
@@ -783,7 +803,7 @@
                 <!-- Disabled -->
                 <control type="label">
                     <left>240</left>
-                    <top>170</top>
+                    <top>200</top>
                     <label>$LOCALIZE[1223]</label>
                     <font>font_tiny1</font>
                     <textcolor>ppi_dialog_fg_90</textcolor>
@@ -792,7 +812,7 @@
                 <!-- N/A -->
                 <control type="label">
                     <left>240</left>
-                    <top>170</top>
+                    <top>200</top>
                     <label>$LOCALIZE[32033]</label>
                     <font>font_tiny1</font>
                     <textcolor>ppi_dialog_fg_90</textcolor>
