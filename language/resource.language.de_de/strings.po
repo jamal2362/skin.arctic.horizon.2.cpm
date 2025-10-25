@@ -2259,6 +2259,10 @@ msgctxt "#32076"
 msgid "seconds"
 msgstr "Sekunden"
 
+msgctxt "#32077"
+msgid "System"
+msgstr "System"
+
 msgctxt "#32078"
 msgid "Decoding"
 msgstr "Dekodierung"

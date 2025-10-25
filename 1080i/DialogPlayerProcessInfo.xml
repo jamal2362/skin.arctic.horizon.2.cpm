@@ -405,7 +405,7 @@
 				
                 <!-- System -->
                 <control type="label">
-                    <label>[B][UPPERCASE]$LOCALIZE[32055][/UPPERCASE][/B]</label>
+                    <label>[B][UPPERCASE]$LOCALIZE[32077][/UPPERCASE][/B]</label>
                     <top>-15</top>
                     <left>30</left>
                     <font>font_tiny1</font>
