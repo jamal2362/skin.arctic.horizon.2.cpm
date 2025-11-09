@@ -322,6 +322,87 @@
                                 <selected>Skin.HasSetting(Glass.BorderOutline)</selected>
                             </include>
 
+                            <include content="Dialog_Settings_Label" description="Codec logos">
+                                <param name="id">2363</param>
+                                <label>$LOCALIZE[32063]</label>
+                                <visible>Container(3).HasFocus(2)</visible>
+                            </include>
+                            <include content="Dialog_Settings_Button">
+                                <param name="id">2369</param>
+                                <param name="control" value="button" />
+                                <label>$LOCALIZE[32071]</label>
+                                <visible>Container(3).HasFocus(2)</visible>
+                                <onclick condition="!Skin.HasSetting(osd.useOneSecondCodecLogos) + !Skin.HasSetting(osd.useTwoSecondsCodecLogos) + !Skin.HasSetting(osd.useThreeSecondsCodecLogos) + !Skin.HasSetting(osd.useFourSecondsCodecLogos) + !Skin.HasSetting(osd.useFiveSecondsCodecLogos) + !Skin.HasSetting(osd.useSixSecondsCodecLogos) + !Skin.HasSetting(osd.useSevenSecondsCodecLogos) + !Skin.HasSetting(osd.useEightSecondsCodecLogos) + !Skin.HasSetting(osd.useNineSecondsCodecLogos) + !Skin.HasSetting(osd.useTenSecondsCodecLogos) + !Skin.HasSetting(osd.useElevenSecondsCodecLogos) + !Skin.HasSetting(osd.useTwelveSecondsCodecLogos) + !Skin.HasSetting(osd.useThirteenSecondsCodecLogos) + !Skin.HasSetting(osd.useFourteenSecondsCodecLogos) + !Skin.HasSetting(osd.useFifteenSecondsCodecLogos)">Skin.ToggleSetting(osd.useSixSecondsCodecLogos)</onclick>
+                                <onclick condition="Skin.HasSetting(osd.useFiveSecondsCodecLogos)">Skin.ToggleSetting(osd.useSixSecondsCodecLogos)</onclick>
+                                <onclick condition="Skin.HasSetting(osd.useSixSecondsCodecLogos)">Skin.ToggleSetting(osd.useSevenSecondsCodecLogos)</onclick>
+                                <onclick condition="Skin.HasSetting(osd.useSevenSecondsCodecLogos)">Skin.ToggleSetting(osd.useEightSecondsCodecLogos)</onclick>
+                                <onclick condition="Skin.HasSetting(osd.useEightSecondsCodecLogos)">Skin.ToggleSetting(osd.useNineSecondsCodecLogos)</onclick>
+                                <onclick condition="Skin.HasSetting(osd.useNineSecondsCodecLogos)">Skin.ToggleSetting(osd.useTenSecondsCodecLogos)</onclick>
+                                <onclick condition="Skin.HasSetting(osd.useTenSecondsCodecLogos)">Skin.ToggleSetting(osd.useElevenSecondsCodecLogos)</onclick>
+                                <onclick condition="Skin.HasSetting(osd.useElevenSecondsCodecLogos)">Skin.ToggleSetting(osd.useTwelveSecondsCodecLogos)</onclick>
+                                <onclick condition="Skin.HasSetting(osd.useTwelveSecondsCodecLogos)">Skin.ToggleSetting(osd.useThirteenSecondsCodecLogos)</onclick>
+                                <onclick condition="Skin.HasSetting(osd.useThirteenSecondsCodecLogos)">Skin.ToggleSetting(osd.useFourteenSecondsCodecLogos)</onclick>
+                                <onclick condition="Skin.HasSetting(osd.useFourteenSecondsCodecLogos)">Skin.ToggleSetting(osd.useFifteenSecondsCodecLogos)</onclick>
+                                <onclick condition="Skin.HasSetting(osd.useFifteenSecondsCodecLogos)">Skin.ToggleSetting(osd.useOneSecondCodecLogos)</onclick>
+                                <onclick condition="Skin.HasSetting(osd.useOneSecondCodecLogos)">Skin.ToggleSetting(osd.useTwoSecondsCodecLogos)</onclick>
+                                <onclick condition="Skin.HasSetting(osd.useTwoSecondsCodecLogos)">Skin.ToggleSetting(osd.useThreeSecondsCodecLogos)</onclick>
+                                <onclick condition="Skin.HasSetting(osd.useThreeSecondsCodecLogos)">Skin.ToggleSetting(osd.useFourSecondsCodecLogos)</onclick>
+                                <onclick condition="Skin.HasSetting(osd.useFourSecondsCodecLogos)">Skin.Reset(osd.useFourSecondsCodecLogos)</onclick>
+                                <onclick condition="Skin.HasSetting(osd.useOneSecondCodecLogos)">Skin.Reset(osd.useOneSecondCodecLogos)</onclick>
+                                <onclick condition="Skin.HasSetting(osd.useTwoSecondsCodecLogos)">Skin.Reset(osd.useTwoSecondsCodecLogos)</onclick>
+                                <onclick condition="Skin.HasSetting(osd.useThreeSecondsCodecLogos)">Skin.Reset(osd.useThreeSecondsCodecLogos)</onclick>
+                                <onclick condition="Skin.HasSetting(osd.useFiveSecondsCodecLogos)">Skin.Reset(osd.useFiveSecondsCodecLogos)</onclick>
+                                <onclick condition="Skin.HasSetting(osd.useSixSecondsCodecLogos)">Skin.Reset(osd.useSixSecondsCodecLogos)</onclick>
+                                <onclick condition="Skin.HasSetting(osd.useSevenSecondsCodecLogos)">Skin.Reset(osd.useSevenSecondsCodecLogos)</onclick>
+                                <onclick condition="Skin.HasSetting(osd.useEightSecondsCodecLogos)">Skin.Reset(osd.useEightSecondsCodecLogos)</onclick>
+                                <onclick condition="Skin.HasSetting(osd.useNineSecondsCodecLogos)">Skin.Reset(osd.useNineSecondsCodecLogos)</onclick>
+                                <onclick condition="Skin.HasSetting(osd.useTenSecondsCodecLogos)">Skin.Reset(osd.useTenSecondsCodecLogos)</onclick>
+                                <onclick condition="Skin.HasSetting(osd.useElevenSecondsCodecLogos)">Skin.Reset(osd.useElevenSecondsCodecLogos)</onclick>
+                                <onclick condition="Skin.HasSetting(osd.useTwelveSecondsCodecLogos)">Skin.Reset(osd.useTwelveSecondsCodecLogos)</onclick>
+                                <onclick condition="Skin.HasSetting(osd.useThirteenSecondsCodecLogos)">Skin.Reset(osd.useThirteenSecondsCodecLogos)</onclick>
+                                <onclick condition="Skin.HasSetting(osd.useFourteenSecondsCodecLogos)">Skin.Reset(osd.useFourteenSecondsCodecLogos)</onclick>
+                                <onclick condition="Skin.HasSetting(osd.useFifteenSecondsCodecLogos)">Skin.Reset(osd.useFifteenSecondsCodecLogos)</onclick>
+                                <label2>$VAR[OSDCodecLogosStartupTimerLabel]</label2>
+                            </include>
+                            <include content="Dialog_Settings_Button">
+                                <param name="id">2368</param>
+                                <param name="control" value="button" />
+                                <label>$LOCALIZE[32062]</label>
+                                <visible>Container(3).HasFocus(2)</visible>
+                                <onclick condition="!Skin.HasSetting(osd.useleftCodecStartupLogos) + !Skin.HasSetting(osd.usecenterCodecStartupLogos) + !Skin.HasSetting(osd.userightCodecStartupLogos)">Skin.ToggleSetting(osd.useleftCodecStartupLogos)</onclick>
+                                <onclick condition="Skin.HasSetting(osd.useleftCodecStartupLogos)">Skin.ToggleSetting(osd.usecenterCodecStartupLogos)</onclick>
+                                <onclick condition="Skin.HasSetting(osd.usecenterCodecStartupLogos)">Skin.ToggleSetting(osd.userightCodecStartupLogos)</onclick>
+                                <onclick condition="Skin.HasSetting(osd.useleftCodecStartupLogos)">Skin.Reset(osd.useleftCodecStartupLogos)</onclick>
+                                <onclick condition="Skin.HasSetting(osd.userightCodecStartupLogos)">Skin.Reset(osd.userightCodecStartupLogos)</onclick>
+                                <onclick condition="Skin.HasSetting(osd.usecenterCodecStartupLogos)">Skin.Reset(osd.usecenterCodecStartupLogos)</onclick>
+                                <label2>$VAR[OSDCodecLogosStartupLabel]</label2>
+                            </include>
+                            <include content="Dialog_Settings_Button">
+                                <param name="id">2367</param>
+                                <param name="control" value="button" />
+                                <label>$LOCALIZE[32060]</label>
+                                <visible>Container(3).HasFocus(2)</visible>
+                                <onclick condition="!Skin.HasSetting(osd.useleftCodecLogos) + !Skin.HasSetting(osd.usecenterCodecLogos) + !Skin.HasSetting(osd.userightCodecLogos)">Skin.ToggleSetting(osd.useleftCodecLogos)</onclick>
+                                <onclick condition="Skin.HasSetting(osd.useleftCodecLogos)">Skin.ToggleSetting(osd.usecenterCodecLogos)</onclick>
+                                <onclick condition="Skin.HasSetting(osd.usecenterCodecLogos)">Skin.ToggleSetting(osd.userightCodecLogos)</onclick>
+                                <onclick condition="Skin.HasSetting(osd.useleftCodecLogos)">Skin.Reset(osd.useleftCodecLogos)</onclick>
+                                <onclick condition="Skin.HasSetting(osd.userightCodecLogos)">Skin.Reset(osd.userightCodecLogos)</onclick>
+                                <onclick condition="Skin.HasSetting(osd.usecenterCodecLogos)">Skin.Reset(osd.usecenterCodecLogos)</onclick>
+                                <label2>$VAR[OSDCodecLogosLabel]</label2>
+                            </include>
+                            <include content="Dialog_Settings_Button">
+                                <param name="id">2362</param>
+                                <param name="control" value="button" />
+                                <label>$LOCALIZE[32061]</label>
+                                <visible>Container(3).HasFocus(2)</visible>
+                                <onclick condition="!Skin.HasSetting(ppi.useleftCodecLogos) + !Skin.HasSetting(ppi.usecenterCodecLogos) + !Skin.HasSetting(ppi.userightCodecLogos)">Skin.ToggleSetting(ppi.useleftCodecLogos)</onclick>
+                                <onclick condition="Skin.HasSetting(ppi.useleftCodecLogos)">Skin.ToggleSetting(ppi.usecenterCodecLogos)</onclick>
+                                <onclick condition="Skin.HasSetting(ppi.usecenterCodecLogos)">Skin.ToggleSetting(ppi.userightCodecLogos)</onclick>
+                                <onclick condition="Skin.HasSetting(ppi.useleftCodecLogos)">Skin.Reset(ppi.useleftCodecLogos)</onclick>
+                                <onclick condition="Skin.HasSetting(ppi.userightCodecLogos)">Skin.Reset(ppi.userightCodecLogos)</onclick>
+                                <onclick condition="Skin.HasSetting(ppi.usecenterCodecLogos)">Skin.Reset(ppi.usecenterCodecLogos)</onclick>
+                                <label2>$VAR[PPICodecLogosLabel]</label2>
+                            </include>
 
                             <!-- Navigation -->
                             <include content="Dialog_Settings_Label" description="Navigation">

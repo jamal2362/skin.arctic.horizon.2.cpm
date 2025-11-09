@@ -63,5 +63,10 @@
     <color name="shadow_soft">1a000000</color>
     <color name="shadow_hard">80000000</color>
     <color name="shadow_menu">40000000</color>
+	
+    <!-- PlayerProcessInfo -->
+    <color name="ppi_dialog_fg_100">ffededed</color>
+    <color name="ppi_dialog_fg_90">e7ededed</color>
+    <color name="ppi_dialog_fg_70">b3ededed</color>
 
 </colors>

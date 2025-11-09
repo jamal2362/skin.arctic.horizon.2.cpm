@@ -935,6 +935,10 @@
 
     <include name="OSD_VideoSeekBar">
         <control type="group">
+		
+            <include condition="Skin.HasSetting(osd.useleftCodecLogos)">CodecLogosLeftOSD</include>
+            <include condition="Skin.HasSetting(osd.usecenterCodecLogos)">CodecLogosCenterOSD</include>
+            <include condition="Skin.HasSetting(osd.userightCodecLogos)">CodecLogosRightOSD</include>
 
             <!-- Progress Bar Group -->
             <control type="group">
@@ -949,6 +953,7 @@
 
             <!-- Top Left Label -->
             <control type="group">
+                <visible>!Skin.HasSetting(osd.useleftCodecLogos)</visible>
                 <visible>[VideoPlayer.Content(episodes) + !String.IsEmpty(VideoPlayer.Title)] | [VideoPlayer.Content(movies) + !String.IsEmpty(Player.Chapter) + !String.IsEqual(Player.Chapter,00)] | [VideoPlayer.Content(livetv) + !String.IsEmpty(VideoPlayer.ChannelNumberLabel)] | [VideoPlayer.Content(files) + !String.IsEmpty(VideoPlayer.Studio)]</visible>
                 <include content="Object_ShadowSpot">
                     <include>Dimension_HeaderTitleShadow</include>
