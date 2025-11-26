@@ -703,7 +703,7 @@
                     <left>240</left>
                     <top>110</top>
                     <width>305</width>
-                    <label>$INFO[Player.Process(audiochannels),]</label>
+                    <label>$VAR[AudioChannelsInputVar]</label>
                     <font>font_tiny1</font>
                     <scroll>true</scroll>
                     <textcolor>ppi_dialog_fg_90</textcolor>
